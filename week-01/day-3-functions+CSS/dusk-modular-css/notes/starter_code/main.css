@@ -6,3 +6,47 @@
 }
 .block-children > * { display: block;}
 .inline-block-children > * { display: inline-block; }
+.shout {
+	text-transform: uppercase;
+}
+.shadow {
+	text-shadow: 2px 2px 4px grey;
+}
+.invert {
+	transform: rotate(180deg);
+}
+.red-background {
+	background-color: red;
+}
+.blue-background {
+	background-color: blue;
+}
+.purple-background {
+	background-color: purple;
+}
+.circle {
+	border-radius: 50%;
+	color: rgba(0, 0, 0, 0);
+}
+.half {
+	height: 50%;
+	width: 50%;
+}
+.middle {
+	margin: 0 auto;
+}
+.center {
+	text-align: center;
+}
+.circle-back {
+	position: absolute;
+	z-index: -1;
+}
+.circle-middle {
+	position: absolute;
+	z-index: 0;
+}
+.circle-front {
+	position: absolute;
+	z-index: 1;
+}
